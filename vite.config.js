@@ -29,7 +29,7 @@ export default defineConfig(({ command }) => {
       // Si tu bot expone otro puerto, ajusta `target`.
       proxy: {
         '/api': {
-          target: 'http://localhost:5000',
+          target: 'https://stunner-upside-nutty.ngrok-free.dev',
           changeOrigin: true,
         },
         '/webhook': {
@@ -37,7 +37,7 @@ export default defineConfig(({ command }) => {
           changeOrigin: true,
         },
         '/health': {
-          target: 'http://localhost:5000',
+          target: 'https://stunner-upside-nutty.ngrok-free.dev',
           changeOrigin: true,
         },
       },
