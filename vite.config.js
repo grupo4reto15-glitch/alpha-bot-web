@@ -33,7 +33,7 @@ export default defineConfig(({ command }) => {
           changeOrigin: true,
         },
         '/webhook': {
-          target: 'http://localhost:5000',
+          target: 'https://stunner-upside-nutty.ngrok-free.dev',
           changeOrigin: true,
         },
         '/health': {
